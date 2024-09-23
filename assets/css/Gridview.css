@@ -1,0 +1,163 @@
+﻿@media only screen and (max-width:568px) {
+    .dt-buttons {
+        text-align: center;
+    }
+}
+
+.dt-buttons {
+    float: inline-start !important;
+}
+
+#cph_gvv_length {
+    display: none !important;
+}
+
+button.dt-button, div.dt-button, a.dt-button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.333em;
+    padding: 0.3em 1em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.88em;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    background-image: -webkit-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -moz-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -ms-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #e9e9e9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='white', EndColorStr='#e9e9e9');
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    text-align: center !important;
+}
+
+table.dataTable thead > tr > th.sorting:before, table.dataTable thead > tr > th.sorting_asc:before {
+    content: none !important;
+    right: 12px;
+    top: 23px;
+    font-size: 1em;
+    height: 22%;
+}
+
+table.dataTable thead > tr > th.sorting:after, table.dataTable thead > tr > th.sorting_asc:after {
+    content: none !important;
+    top: 23px;
+    right: 5px;
+    font-size: 1em;
+    height: 22%;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+    display: none;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    background-color: #3D5EE1;
+    color: #fff;
+    border-color: #3D5EE1;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Responsive Table Styling */
+@media (max-width: 576px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+        .table-responsive .table {
+            margin-bottom: 0;
+        }
+
+            .table-responsive .table th,
+            .table-responsive .table td {
+                white-space: nowrap;
+            }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-dialog {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+    .modal-header button {
+        font-size: 18px;
+        color: #555;
+        cursor: pointer;
+    }
+
+.modal-body {
+    padding: 20px;
+}
+
+    .modal-body .btn {
+        margin-top: 10px;
+    }
+
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    text-align: justify;
+}
+
+table.dataTable tbody td {
+    text-align: justify !important;
+}
